@@ -31,3 +31,7 @@ console.log(computation
   .add(function timesTwo(a) { return a * 2; }) // simple function
   .add(function plus(a, b) { return a + b; }, 1) // plus function that will be given 1 as its first arg
   .evaluate([1, 2, 3])); // returns [3, 5, 7]
+
+
+// Export the Lazy class
+module.exports = Lazy;

@@ -10,7 +10,11 @@ You can use git clone to get the source code:
 git clone https://github.com/sdevgill/lazy-evaluation.git
 ```
 
-or you can just include the Lazy.js file in your project.
+Install the dependencies:
+
+```
+npm install
+```
 
 
 ### Usage
@@ -35,6 +39,15 @@ computation.evaluate([1, 2, 3])
 ```
 
 The functions will be applied in the order they were added, and the result will be an array containing the results of the computation.
+
+### Testing
+
+To run the tests, you can use the following command:
+
+```
+npm test
+```
+
 
 ### Big O Notation
 

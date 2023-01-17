@@ -1,0 +1,22 @@
+{
+  "name": "lazy-evaluation",
+  "version": "1.0.0",
+  "description": "A simple JavaScript class for lazy evaluations of functions on arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdevgill/lazy-evaluation.git"
+  },
+  "author": "Dev Gill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdevgill/lazy-evaluation/issues"
+  },
+  "homepage": "https://github.com/sdevgill/lazy-evaluation#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
